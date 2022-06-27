@@ -6,6 +6,12 @@
 header {
     margin-bottom: 5%;
 }
+.header .navbar {
+    background-color: rgba(176, 224, 230, 0.8) !important;
+    color: black !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
 body {
     background-image: url(../imagenes/foto14.jpg);
     background-repeat: no-repeat;
@@ -80,8 +86,7 @@ body {
 }
 
 .informacion-index {
-    list-style: none;
-    border: solid 1px;
+    border: solid 1px grey;
     background-color: rgba(240, 230, 140, 0.5);
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 50px;
@@ -93,14 +98,12 @@ body {
     margin-top: 20%;
     margin-bottom: 10%;
     font-family: 'Bebas Neue', cursiva;
-    font-weight: bold;
     color: black;
     background-color: rgba(230, 230, 250, 0.7);
     padding: 10px;
 }
 .dweb {
     font-family: 'Nuosu SIL', serif;
-    font-style: italic;
     color:black
 }
 /*---------------------------------staff medico----------------------------*/
