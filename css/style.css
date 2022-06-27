@@ -16,6 +16,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+
 }
 
 .redes {
@@ -24,6 +25,9 @@ body {
     padding: 5px;
     width: 7%;
     margin-top: 5%;
+}
+.redes:hover {
+    transform: scale(2);
 }
 
 /*-----------------------------------------index---------------------------------*/
@@ -144,4 +148,17 @@ body {
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 45px;
+    font-style: italic;
+    color: darkslategrey;
+}
+.info2 {
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 45px;
+    border: solid 1px;
+    background-color: rgba(240, 230, 140, 0.5);
+    color: darkslategrey;
+}
+.info3 {
+    font-weight: bold;
 }
