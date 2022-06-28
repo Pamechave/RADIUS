@@ -17,20 +17,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
  }   
- .boton {
+.boton {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-
 }
 
 .redes {
     font-size: 1.2rem;
     color: darkslategray;
     padding: 5px;
-    width: 7%;
-    margin-top: 5%;
+    width: 3%;
+    height: 10vh;
 }
 .redes:hover {
     transform: scale(2);
