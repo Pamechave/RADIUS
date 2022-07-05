@@ -1,3 +1,5 @@
+/*---------------------------media queries navbar----------------------------------*/
+
 @media (max-width: 480px) {
     .header .navbar {
         font-size: 1rem;
@@ -5,7 +7,7 @@
     }
 }
 
-/*--------------------------------------------------------*/
+/*--------------------------media queries h1------------------------------*/
 
 
 @media (max-width: 768px) {
@@ -58,15 +60,8 @@
 
 
 @media (max-width: 480px) {
-    .ubicacion-titulo {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1rem;
-        margin-top: 2%;
-        font-weight: 600;
-    }
-
-    .infoh3 {
-        font-family: 'Source Sans Pro', sans-serif;
+    .titulo-info {
+        font-family: $fuente-primaria;
         font-size: 1rem;
         font-weight: 600;
         margin-top: 5%;
@@ -104,8 +99,3 @@
     }
 }
 
-@media (max-width: 768px){
-    .form-p {
-        font-size: 1rem;
-    }
-}

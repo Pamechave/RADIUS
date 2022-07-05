@@ -1,3 +1,4 @@
+/*----------------------boton de whats app--------------------------------*/
 .boton {
     position: fixed;
     width: 60px;
@@ -5,20 +6,26 @@
     bottom: 40px;
     right: 40px;
     background-color: darkgreen;
-    color: #FFF;
+    color: $color-terciario;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
+
+    .mi-boton {
+        margin-top: 16px;
+    }
 }
 
-.mi-boton {
-    margin-top: 16px;
-}
 /*--------------------------botones contacto-------------------------------*/
 
 .btn {
-    background-color: darkslategray;
-    color: white;
+    background-color: $color-secundario;
+    color: $color-terciario;
+
+    &:hover {
+        background-color: cornflowerblue;
+        color: $color-secundario;
+    }
 }

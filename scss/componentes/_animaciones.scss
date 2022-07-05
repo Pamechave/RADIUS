@@ -1,9 +1,11 @@
+/*----------------------animacion h1-----------------------------*/
+
 h1 {
     animation-duration: 2s;
     animation-name: slidein;
 }
 
-/*----------------------------------------------------------------*/
+/*-------------------------------animacion portada---------------------------------*/
 .portada-h1,
 .portada-p {
     animation-duration: 6s;
@@ -34,8 +36,3 @@ h1 {
     }
 }
 
-/*-----------------animacion de boton formulario-----------*/
-.btn:hover {
-    background-color: cornflowerblue;
-    color: white;
-}

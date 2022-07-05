@@ -1,8 +1,14 @@
 h1 {
     font-size: 2.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fuente-secundaria;
     font-weight: 600;
-    background-color: beige;
+    background-color: $color-terciario;
+    color: $color-primario;
 }
 
 /*----------------------------------------------------------------*/
+
+.titulo-info {
+    font-weight: bold;
+    margin-top: 5%;
+}

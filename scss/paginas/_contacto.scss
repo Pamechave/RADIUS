@@ -1,21 +1,19 @@
-.info {
+.parrafo-info {
     list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $fuente-primaria;
     line-height: 45px;
     font-style: italic;
-    color: darkslategrey;
+    color: $color-secundario;
 }
 
-.info2 {
+.lista-info {
     list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $fuente-primaria;
     line-height: 45px;
     border: solid 1px;
     border-radius: 5px;
     background-color: rgba(240, 230, 140, 0.5);
-    color: darkslategrey;
+    color: $color-secundario;
 }
 
-.info3 {
-    font-weight: bold;
-}
+

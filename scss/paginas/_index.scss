@@ -33,29 +33,26 @@
     margin-top: 5%;
     margin-bottom: 10%;
     background-color: rgba(230, 230, 250, 0.7);
-    font-family: 'Bebas Neue', cursiva;
-    font-size: 1.2rem;
-    line-height: 40px;
+
+    &__titulo {
+        font-family: 'Bebas Neue', cursiva;
+        font-size: 2rem;
+    }
+    &__parrafo {
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+    
 }
 
 .informacion-index {
     border: solid 1px grey;
     border-radius: 5px;
     background-color: whitesmoke;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $fuente-primaria;
     line-height: 50px;
     font-size: 1rem;
     list-style: none;
 }
 
-.ubicacion-titulo {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2rem;
-    margin-top: 5%;
-}
 
-.infoh3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2rem;
-    margin-top: 5%;
-}

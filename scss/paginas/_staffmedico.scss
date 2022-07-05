@@ -6,24 +6,26 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
+    color: $color-primario;
 }
 
 .staffmedico-p {
     font-family: 'Bebas Neue', cursiva;
     font-style: italic;
+    color: $color-secundario;
     margin-bottom: 5%;
     font-size: 1.3rem;
+}
+
+.especialidades-titulo {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: $fuente-secundaria;
+    font-weight: 600;
+    color: $color-primario;
 }
 
 .foto {
     width: auto;
     height: 30vh;
 }
-
-.especialidades-titulo {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-}
-
