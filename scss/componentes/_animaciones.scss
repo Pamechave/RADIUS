@@ -1,0 +1,41 @@
+h1 {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+/*----------------------------------------------------------------*/
+.portada-h1,
+.portada-p {
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/*-----------------animacion de boton formulario-----------*/
+.btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+}

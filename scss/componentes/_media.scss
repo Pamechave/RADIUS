@@ -1,0 +1,111 @@
+@media (max-width: 480px) {
+    .header .navbar {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+/*--------------------------------------------------------*/
+
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 1.5rem;
+}
+}
+/*----------------------------footer-------------------------------*/
+
+@media (max-width:480px) {
+    .eslogan {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    .eslogan {
+        font-size: 1rem;
+    }
+}
+
+/*--------------------------index--------------------------------*/
+@media (max-width:767px) {
+    .portada-h1 {
+        font-size: 1.4rem;
+    }
+
+    .portada-p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width:768px) {
+    .portada {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1400px) {
+    .portada {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+}
+
+/*---------------------------index-----------------------------*/
+
+
+@media (max-width: 480px) {
+    .ubicacion-titulo {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1rem;
+        margin-top: 2%;
+        font-weight: 600;
+    }
+
+    .infoh3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 5%;
+    }
+
+    .informacion-index {
+        text-align: center;
+    }
+}
+/*------------------------------staff medico---------------------------------------*/
+
+@media (max-width: 480px) {
+    .staff {
+        margin-top: 5%;
+    }
+
+    .staffmedico-name {
+        font-size: 1.2rem;
+    }
+
+    .staffmedico-p {
+        font-size: 1rem;
+    }
+}
+/*-------------------------cobertura----------------------------------*/
+@media (max-width: 768px) {
+    .lista {
+        font-size: 1.2rem;
+    }
+}
+/*---------------------------contacto-----------------------------------*/
+@media (max-width: 768px){
+    .form-p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .form-p {
+        font-size: 1rem;
+    }
+}
