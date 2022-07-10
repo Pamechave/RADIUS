@@ -25,6 +25,28 @@ header {
 
 .calendar, .location, .phone, .wapp, .mail {
   padding: 10px;
+  color: grey;
+}
+
+.btn-instagram, .btn-linkedin, .btn-facebook, .btn-messenger {
+  width: 5%;
+  height: 5%;
+}
+
+.btn-messenger {
+  color: blue;
+}
+
+.btn-facebook {
+  color: rgb(85, 85, 192);
+}
+
+.btn-linkedin {
+  color: lightblue;
+}
+
+.btn-instagram {
+  color: fuchsia;
 }
 
 .portada {
@@ -117,10 +139,15 @@ header {
 .estudios {
   margin-top: 5%;
 }
+.estudios .titulo-h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 .estudios .estudios-ul {
   list-style: none;
 }
-.estudios .estudios-ul li {
+.estudios li {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
 }

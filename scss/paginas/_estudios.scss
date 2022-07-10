@@ -1,12 +1,18 @@
 
 .estudios {
     margin-top: 5%;
+
+    .titulo-h2 {
+        font-family: $fuente-primaria;  
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
     .estudios-ul {
         list-style: none;
-        
+    }
         li {
             font-family: $fuente-primaria;
             font-size: 1.2rem;
         }
-    }
 }
+
