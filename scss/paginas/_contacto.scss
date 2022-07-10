@@ -1,19 +1,22 @@
-.parrafo-info {
+%parrafo {
     list-style: none;
     font-family: $fuente-primaria;
     line-height: 45px;
-    font-style: italic;
     color: $color-secundario;
 }
 
+.parrafo-info {
+    @extend %parrafo;
+    font-style: italic; 
+}
+
 .lista-info {
-    list-style: none;
-    font-family: $fuente-primaria;
-    line-height: 45px;
+    @extend %parrafo;
     border: solid 1px;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px darkgrey;
     background-color: rgba(240, 230, 140, 0.5);
-    color: $color-secundario;
+    
 }
 
 

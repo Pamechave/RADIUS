@@ -30,6 +30,7 @@
 .institucional {
     border: solid 1px darkslategrey;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px lightblue;
     margin-top: 5%;
     margin-bottom: 10%;
     background-color: rgba(230, 230, 250, 0.7);
@@ -39,6 +40,7 @@
         font-size: 2rem;
     }
     &__parrafo {
+        font-family: 'Bebas Neue', cursiva;
         font-size: 1.2rem;
         line-height: 40px;
     }
@@ -46,13 +48,12 @@
 }
 
 .informacion-index {
+    @extend %parrafo;
     border: solid 1px grey;
     border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
     background-color: whitesmoke;
-    font-family: $fuente-primaria;
-    line-height: 50px;
     font-size: 1rem;
-    list-style: none;
 }
 
 

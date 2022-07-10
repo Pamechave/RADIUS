@@ -1,3 +1,9 @@
+@mixin centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lista {
     list-style: none;
 
@@ -5,7 +11,8 @@
     font-size: 1.5rem;
     font-family: $fuente-primaria;
     margin-top: 5%;
-    color: $color-primario;
+    color: $color-primario; 
+    @include centrar;
 
     }
     

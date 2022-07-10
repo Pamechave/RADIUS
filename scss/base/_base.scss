@@ -8,10 +8,30 @@ header {
     margin-bottom: 5%;
 }
 
-.logo {
-    width: 100%;
-    height: 100%;
-}
+
 .navbar-brand {
     width: 10%;
+}
+.logo {
+    width: 80%;
+    height: 80%;
+}
+%iconos {
+    padding: 10px;
+}
+
+.mail {
+  @extend %iconos; 
+}
+.wapp {
+    @extend %iconos;
+}
+.phone {
+    @extend %iconos;
+}
+.location {
+    @extend %iconos;
+}
+.calendar {
+    @extend %iconos;
 }
