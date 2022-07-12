@@ -77,10 +77,6 @@
         font-weight: 600;
         margin-top: 5%;
     }
-
-    .informacion-index {
-        text-align:start;
-    }
 }
 /*------------------------------staff medico---------------------------------------*/
 
@@ -121,4 +117,10 @@
         font-size: 23px;
     }
        
+    }
+    @media (max-width:320px) {
+        .mapa {
+            width: 100%;
+        }
+        
     }

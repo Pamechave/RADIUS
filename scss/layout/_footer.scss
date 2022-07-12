@@ -1,11 +1,14 @@
+
+footer{
+    background-color: rgba(132, 122, 122, 0.3);
+}
 .eslogan {
     margin-top: 20%;
     margin-bottom: 5%;
-    font-family: 'Lato', sans-serif;
+    font-family: $fuente-secundaria;
     font-size: 1.5rem;
     font-weight: 600;
-    color: $color-secundario;
-    background-color: rgba(255, 250, 240, 0.4);
+    color:$color-primario;
     padding: 10px;
 }
 

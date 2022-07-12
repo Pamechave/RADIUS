@@ -5,17 +5,13 @@
 }
 
 body {
-  background-image: url(../imagenes/fondo.jpg);
+  /*background-image: url(../imagenes/fondo2.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 header {
   margin-bottom: 5%;
-}
-
-.navbar-brand {
-  width: 10%;
 }
 
 .logo {
@@ -199,7 +195,7 @@ h1 {
 
 .header {
   padding: 20px;
-  background-color: rgba(255, 250, 240, 0.4) !important;
+  background-color: rgba(240, 230, 140, 0.5) !important;
 }
 .header .navbar {
   color: black !important;
@@ -211,15 +207,21 @@ h1 {
 .header a:hover {
   transform: scale(1.1);
 }
+.header .navbar-brand {
+  width: 10%;
+}
+
+footer {
+  background-color: rgba(132, 122, 122, 0.3);
+}
 
 .eslogan {
   margin-top: 20%;
   margin-bottom: 5%;
-  font-family: "Lato", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: darkslategrey;
-  background-color: rgba(255, 250, 240, 0.4);
+  color: black;
   padding: 10px;
 }
 
@@ -370,9 +372,6 @@ h1 {
     font-weight: 600;
     margin-top: 5%;
   }
-  .informacion-index {
-    text-align: start;
-  }
 }
 /*------------------------------staff medico---------------------------------------*/
 @media (max-width: 480px) {
@@ -407,6 +406,11 @@ h1 {
     bottom: 15px;
     right: 15px;
     font-size: 23px;
+  }
+}
+@media (max-width: 320px) {
+  .mapa {
+    width: 100%;
   }
 }
 
