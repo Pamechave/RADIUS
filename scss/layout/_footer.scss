@@ -6,15 +6,18 @@ footer{
     margin-top: 20%;
     margin-bottom: 5%;
     font-family: $fuente-secundaria;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color:$color-primario;
     padding: 10px;
+    letter-spacing: 10px;
 }
 
 .dweb {
     font-family: $fuente-terciaria;
+    font-size: 1rem;
     font-weight: 600;
     color: $color-primario;
     font-style: italic;
+
 }
