@@ -5,7 +5,6 @@
 }
 
 body {
-  /*background-image: url(../imagenes/fondo2.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -56,8 +55,7 @@ header {
   width: 100%;
   height: 50vh;
 }
-
-.portada-p {
+.portada .portada-p {
   color: black;
   background-color: beige;
   font-family: "Nuosu SIL", serif;
@@ -65,13 +63,12 @@ header {
   padding: 10px;
   font-size: 1.8rem;
 }
-
-.portada-h1 {
+.portada .portada-h1 {
   color: black;
   background-color: beige;
   font-family: "Nuosu SIL", serif;
   padding: 10px;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .institucional {
@@ -105,30 +102,36 @@ header {
 }
 
 .staff {
-  margin-top: 10%;
+  margin-top: 5%;
 }
-
-.staffmedico-name {
+.staff .staffmedico-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: black;
 }
-
-.staffmedico-p {
+.staff .staffmedico-p {
   font-family: "Bebas Neue", cursiva;
   font-style: italic;
   color: darkslategrey;
   margin-bottom: 5%;
   font-size: 1.1rem;
 }
-
-.especialidades-titulo {
-  margin-top: 10%;
-  margin-bottom: 5%;
+.staff .staff-titulo {
+  margin-bottom: 8%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   color: black;
+  font-size: 1.5rem;
+}
+.staff .staff-h2 {
+  margin-bottom: 8%;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+.staff .medico {
+  margin-top: 10%;
 }
 
 .foto {
@@ -194,6 +197,7 @@ h1 {
   text-align: center;
 }
 
+/*-----------------titulos de secciones informativas (index/contacto)-----------*/
 .titulo-info {
   font-weight: bold;
   margin-top: 5%;
@@ -220,8 +224,7 @@ h1 {
 footer {
   background-color: rgba(132, 122, 122, 0.3);
 }
-
-.eslogan {
+footer .eslogan {
   margin-top: 20%;
   margin-bottom: 5%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -231,8 +234,7 @@ footer {
   padding: 10px;
   letter-spacing: 10px;
 }
-
-.dweb {
+footer .dweb {
   font-family: "Nuosu SIL", serif;
   font-size: 1rem;
   font-weight: 600;
@@ -339,11 +341,6 @@ h1 {
   }
 }
 /*----------------------------footer-------------------------------*/
-@media (max-width: 480px) {
-  .eslogan {
-    font-size: 1rem;
-  }
-}
 @media (max-width: 768px) {
   .eslogan {
     font-size: 1rem;
@@ -383,15 +380,18 @@ h1 {
 }
 /*------------------------------staff medico---------------------------------------*/
 @media (max-width: 480px) {
-  .staff {
-    margin-top: 5%;
-  }
-  .staffmedico-name {
-    font-size: 1.2rem;
-  }
-  .staffmedico-p {
+  .staffmedico-name .staff-h2 .staff-titulo {
     font-size: 1rem;
   }
+  .staffmedico-p {
+    font-size: 0.8rem;
+  }
+  /* .staff-h2 {
+       font-size: 1rem;
+   }
+   .staff-titulo {
+       font-size: 1rem;
+   }*/
 }
 /*-------------------------cobertura----------------------------------*/
 @media (max-width: 768px) {

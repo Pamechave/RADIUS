@@ -28,12 +28,6 @@
 }
 /*----------------------------footer-------------------------------*/
 
-@media (max-width:480px) {
-    .eslogan {
-        font-size: 1rem;
-    }
-}
-
 @media (max-width:768px) {
     .eslogan {
         font-size: 1rem;
@@ -81,17 +75,18 @@
 /*------------------------------staff medico---------------------------------------*/
 
 @media (max-width: 480px) {
-    .staff {
-        margin-top: 5%;
-    }
-
-    .staffmedico-name {
-        font-size: 1.2rem;
-    }
-
-    .staffmedico-p {
+    .staffmedico-name .staff-h2 .staff-titulo {
         font-size: 1rem;
     }
+    .staffmedico-p {
+        font-size: 0.8rem;
+    }
+   /* .staff-h2 {
+        font-size: 1rem;
+    }
+    .staff-titulo {
+        font-size: 1rem;
+    }*/
 }
 /*-------------------------cobertura----------------------------------*/
 @media (max-width: 768px) {
