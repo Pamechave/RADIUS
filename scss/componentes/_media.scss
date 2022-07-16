@@ -38,11 +38,11 @@
 
 /*--------------------------index--------------------------------*/
 @media (max-width:767px) {
-    .portada-h1 {
+    .portada__h1 {
         font-size: 1.4rem;
     }
 
-    .portada-p {
+    .portada__p {
         font-size: 1.1rem;
     }
 }
@@ -67,7 +67,7 @@
 
 
 @media (max-width: 480px) {
-    .titulo-info {
+    .info__titulo {
         font-family: $fuente-primaria;
         font-size: 1rem;
         font-weight: 600;
@@ -78,11 +78,11 @@
 /*------------------------------staff medico---------------------------------------*/
 
 @media (max-width: 480px) {
-    .staffmedico-name .staff-h2 .staff-titulo {
+    .staff__name .staff__h2 .staff__titulo {
         font-size: 1rem;
     }
 
-    .staffmedico-p {
+    .staff__p {
         font-size: 0.8rem;
     }
 }

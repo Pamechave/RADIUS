@@ -5,12 +5,12 @@
     color: $color-secundario;
 }
 
-.parrafo-info {
+.info__parrafo {
     @extend %parrafo;
     font-style: italic; 
 }
 
-.lista-info {
+.info__lista {
     @extend %parrafo;
     border: solid 1px;
     border-radius: 5px;
@@ -19,5 +19,4 @@
     padding: 20px;
     
 }
-
 

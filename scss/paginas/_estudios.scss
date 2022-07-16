@@ -2,13 +2,13 @@
 .estudios {
     margin-top: 5%;
 
-    .titulo-h2 {
+    .estudios__h2 {
         font-family: $fuente-primaria;  
         font-size: 1.2rem;
         font-weight: 600;
         text-align: center;
     }
-    .estudios-ul {
+    .estudios__ul {
         list-style: none;
     }
         li {

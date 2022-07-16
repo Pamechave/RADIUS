@@ -9,7 +9,7 @@
     width: 100%;
     height: 50vh; 
     
-    .portada-p {
+    .portada__p {
         color: black;
         background-color: beige;
         font-family: 'Nuosu SIL', serif;
@@ -18,7 +18,7 @@
         font-size: 1.8rem;
     }
 
-    .portada-h1 {
+    .portada__h1 {
         color: black;
         background-color: beige;
         font-family: 'Nuosu SIL', serif;
@@ -52,7 +52,7 @@
 }
 
 
-.informacion-index {
+.info__listado {
     @extend %parrafo;
     border: solid 1px grey;
     border-radius: 5px;

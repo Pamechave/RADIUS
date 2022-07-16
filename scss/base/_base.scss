@@ -8,11 +8,13 @@ header {
     margin-bottom: 5%;
 }
 
-
 .logo {
     width: 80%;
     height: 80%;
 }
+
+/*-------------------iconos de index/contacto-------------------------*/
+
 %iconos {
     padding: 10px;
     color: grey;
@@ -32,4 +34,11 @@ header {
 }
 .calendar {
     @extend %iconos;
+}
+
+/*-------------------titulos de secciones de informacion index/contacto----------------------*/
+
+.info__titulo {
+    font-weight: bold;
+    margin-top: 5%;
 }
