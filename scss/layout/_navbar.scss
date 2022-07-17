@@ -3,10 +3,7 @@
     padding: 20px;
     background-color: rgba(240, 230, 140, 0.5) !important;
     .navbar {
-        color: $color-primario !important;
         font-family: $fuente-primaria;
-        font-weight: 400;
-        font-size: 1.5rem;
         letter-spacing: 0.3px;
     }
     a:hover {
@@ -14,5 +11,12 @@
     }
     .navbar-brand {
         width: 10%;
+    }
+    .nav-item {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .nav-link {
+        color: $color-primario;
     }
 }

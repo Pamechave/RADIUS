@@ -7,7 +7,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh; 
+    height: 150vh; 
+
+    .portada__h1 {
+        color: black;
+        background-color: beige;
+        font-family: 'Nuosu SIL', serif;
+        padding: 10px;
+        font-size: 2rem;
+    }
     
     .portada__p {
         color: black;
@@ -16,14 +24,6 @@
         font-weight: 400;
         padding: 10px;
         font-size: 1.8rem;
-    }
-
-    .portada__h1 {
-        color: black;
-        background-color: beige;
-        font-family: 'Nuosu SIL', serif;
-        padding: 10px;
-        font-size: 2.5rem;
     }
 }
 

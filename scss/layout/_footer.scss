@@ -3,21 +3,22 @@ footer {
 
     .footer__eslogan {
         margin-top: 20%;
-        margin-bottom: 5%;
         font-family: $fuente-secundaria;
         font-size: 1.2rem;
         font-weight: 600;
         color: $color-primario;
-        padding: 10px;
+        padding: 25px;
         letter-spacing: 10px;
     }
 
     .footer__desarrollo {
-        font-family: $fuente-terciaria;
-        font-size: 1rem;
-        font-weight: 600;
+        font-family: $fuente-primaria;
+        font-size: 0.7rem;
+        font-weight: 400;
         color: $color-primario;
-        font-style: italic;
+        background-color: rgba(47, 79, 79, 0.5);
+        padding: 10px;
+        letter-spacing: 4px;
 
     }
 }

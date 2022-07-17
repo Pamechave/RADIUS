@@ -1,28 +1,13 @@
-%botones {
-    width: 5%;
-    height: 5%;
-}
+
 $redes:(
 messenger:blue,
 facebook:rgb(85, 85, 192),
-linkedin:lightblue,
-instagram: fuchsia,
 );
 
-.btn-messenger {
+.bi-messenger {
     color: map-get($redes,"messenger");
-    @extend%botones;
 }
 
-.btn-facebook {
+.bi-facebook {
     color: map-get($redes,"facebook");
-    @extend%botones;
-}
-.btn-linkedin {
-    color: map-get($redes,"linkedin");
-    @extend%botones;
-}
-.btn-instagram {
-    color: map-get($redes,"instagram");
-    @extend%botones;
 }
