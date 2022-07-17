@@ -1,9 +1,16 @@
-/*---------------------------media queries navbar----------------------------------*/
+/*---------------------------navbar----------------------------------*/
 
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .header .navbar {
-        font-size: 1rem;
+        font-size: 1rem; /*no se aplica*/
         font-weight: 300;
+    }
+}
+
+/*----index----*/
+@media (max-width:320px) {
+    .mapa {
+        width: 100%;
     }
 }
 
@@ -12,88 +19,75 @@
         width: 20%;
     }
 
-    .logo {
-        width: 60%;
-        height: 60%;
-    }
-}
-
-
-/*--------------------------media queries h1------------------------------*/
-
-
-@media (max-width: 768px) {
     h1 {
         font-size: 1.3rem;
     }
-}
 
-/*----------------------------footer-------------------------------*/
+    /*----index----*/
 
-@media (max-width:768px) {
-    .footer__eslogan {
-        font-size: 1rem;
-    }
-}
-
-/*--------------------------index--------------------------------*/
-
-
-@media (max-width: 480px) {
     .portada {
         background-size: cover;
         width: 100%;
         height: 50vh;
     }
+
     .portada__h1 {
+        font-size: 1.3rem;    /*no se aplica*/
+    }
+
+    .portada__p {
+        font-size: 1.1rem;  /*no se aplica*/
+    }
+
+    .institucional__titulo {
         font-size: 1.2rem;
     }
-    .portada__p {
+
+    .institucional__parrafo {
         font-size: 1rem;
     }
-}
 
-@media (max-width:768px) {
-    .portada {
-        background-size: cover;
-        width: 100%;
-        height: 50vh;
-    }
-    .portada__h1 {
-        font-size: 1.5rem;
-    }
-    .portada__p {
-        font-size: 1.2rem;
-    }
-}
-
-/*---------------------------index-----------------------------*/
-
-
-@media (max-width: 480px) {
     .info__titulo {
-        font-family: $fuente-primaria;
-        font-size: 1rem;
-        font-weight: 600;
-        margin-top: 5%;
-    }
-}
-
-/*------------------------------staff medico---------------------------------------*/
-
-@media (max-width: 480px) {
-    .staff__name .staff__h2 .staff__titulo {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
+    /*----staff----*/
+    .staff__titulo {
+        font-size: 1.1rem;     /*no se aplica*/
+    }
+    .staff__h2 {              /*no se aplica*/
+        font-size: 1.1rem;
+    }
+    .staff__name {
+        font-size: 1.1rem;    /*no se aplica*/
+    }
     .staff__p {
-        font-size: 0.8rem;
+        font-size: 1rem;      /*no se aplica*/
     }
+    /*----contacto----*/
+    .form-p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    /*----whatsapp----*/
+    .boton {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+        font-size: 23px;
+    }
+    /*----footer----*/
+    .footer__eslogan {
+        font-size: 1rem; /*no se aplica*/
+    } 
 }
+/*-----cobertura (aca se aplicó grid)-----*/
 
 @media (min-width: 768px) and (max-width: 1400px) {
     .cobertura {
-        font-size: 1.2rem;
+        font-size: 1.3rem; /*no se aplica*/
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr;
@@ -110,38 +104,3 @@
         grid-area: "columna-2";
     }
 }
-
-/*-------------------------cobertura----------------------------------*/
-@media (max-width: 768px) {
-    .lista {
-        font-size: 1rem;
-    }
-}
-
-/*---------------------------contacto-----------------------------------*/
-@media (max-width: 768px) {
-    .form-p {
-        font-size: 1rem;
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .boton {
-        position: fixed;
-        width: 50px;
-        height: 50px;
-        bottom: 15px;
-        right: 15px;
-        font-size: 23px;
-    }
-
-}
-
-@media (max-width:320px) {
-    .mapa {
-        width: 100%;
-    }
-
-}
-
