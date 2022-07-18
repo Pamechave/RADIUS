@@ -1,10 +1,14 @@
 /*---------------------------navbar----------------------------------*/
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .header .navbar {
-        font-size: 1rem; /*no se aplica*/
+    .header {
+        padding:15px;
+
+    .nav-item {
+        font-size: 1rem;
         font-weight: 300;
     }
+}
 }
 
 /*----index----*/
@@ -21,6 +25,7 @@
 
     h1 {
         font-size: 1.3rem;
+        margin-top: 30px;
     }
 
     /*----index----*/
@@ -29,46 +34,59 @@
         background-size: cover;
         width: 100%;
         height: 50vh;
+
+        .portada__h1 {
+            font-size: 1.3rem;
+        }
+
+        .portada__p {
+            font-size: 1.1rem;
+        }
     }
 
-    .portada__h1 {
-        font-size: 1.3rem;    /*no se aplica*/
-    }
+    .institucional {
+        box-shadow: 5px 5px 3px;
 
-    .portada__p {
-        font-size: 1.1rem;  /*no se aplica*/
-    }
+        .institucional__titulo {
+            font-size: 1.2rem;
+        }
 
-    .institucional__titulo {
-        font-size: 1.2rem;
-    }
+        .institucional__parrafo {
+            font-size: 1rem;
+        }
 
-    .institucional__parrafo {
-        font-size: 1rem;
-    }
-
-    .info__titulo {
-        font-size: 1.2rem;
+        .info__titulo {
+            font-size: 1.2rem;
+        }
     }
 
     /*----staff----*/
-    .staff__titulo {
-        font-size: 1.1rem;     /*no se aplica*/
+    .staff {
+        margin-top: 40px;
+
+        .staff__titulo {
+            font-size: 1.1rem;
+        }
+
+        .staff__h2 {
+            font-size: 1.1rem;
+        }
+
+        .staff__name {
+            font-size: 1.1rem;
+        }
+
+        .staff__p {
+            font-size: 1rem;
+        }
     }
-    .staff__h2 {              /*no se aplica*/
-        font-size: 1.1rem;
-    }
-    .staff__name {
-        font-size: 1.1rem;    /*no se aplica*/
-    }
-    .staff__p {
-        font-size: 1rem;      /*no se aplica*/
-    }
+
     /*----contacto----*/
     .form-p {
         font-size: 1rem;
         text-align: center;
     }
+
     /*----whatsapp----*/
     .boton {
         position: fixed;
@@ -78,16 +96,24 @@
         right: 15px;
         font-size: 23px;
     }
+
     /*----footer----*/
-    .footer__eslogan {
-        font-size: 1rem; /*no se aplica*/
-    } 
+
+     footer {
+        background-color: rgba(132, 122, 122, 0.3);
+
+        .footer__eslogan {
+            font-size: 1rem;
+        }
+    }
 }
+
 /*-----cobertura (aca se aplicó grid)-----*/
 
 @media (min-width: 768px) and (max-width: 1400px) {
     .cobertura {
-        font-size: 1.3rem; /*no se aplica*/
+        font-size: 1.3rem;
+        /*no se aplica*/
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr;

@@ -6,8 +6,8 @@ h1 {
 }
 
 /*--------------------animacion portada------------------------*/
-.portada-h1,
-.portada-p {
+
+.portada__h1,.portada__p {
     animation-duration: 6s;
     animation-name: slidein;
 }
