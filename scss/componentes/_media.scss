@@ -1,12 +1,35 @@
 /*---------------------------navbar----------------------------------*/
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
     .header {
         padding:15px;
 
     .nav-item {
         font-size: 1rem;
         font-weight: 300;
+    }
+}
+footer {
+    background-color: rgba(132, 122, 122, 0.3);
+
+    .footer__eslogan {
+        font-size: 0.3rem;
+        letter-spacing: 2px;
+    }
+    .footer__desarrollo {
+        font-size: 0.3rem;
+    }
+    .logoempresa {
+        width: 15%;
+        height: 40%;
+    }
+    .bi-facebook {
+        width: 15%;
+        height: 30%;
+    }
+    .bi-instagram {
+        width: 15%;
+        height: 30%;
     }
 }
 }
@@ -45,6 +68,7 @@
     }
 
     .institucional {
+        text-align: center;
         box-shadow: 5px 5px 3px;
 
         .institucional__titulo {
@@ -65,25 +89,73 @@
         margin-top: 40px;
 
         .staff__titulo {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         .staff__name {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         .staff__p {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
     }
 
+    /*----estudios----*/
+    .estudios {
+        margin-top: 3%;
+    
+    .estudios__h2 {
+        font-size: 1.1rem;
+    }
+    .estudios__ul {
+        padding: 10px;
+    }
+     li {
+        font-size: 1rem;
+     }
+    }
+    .indicaciones {
+        font-size: 1rem;
+    }
+    /*---indicaciones----*/
+
+    .preparaciones {
+        margin-top: 3%;
+
+        .preparaciones__p {
+            font-size: 1rem;
+        }
+        .preparaciones__li {
+            font-size: 0.8rem;
+        }
+    }
 
     /*----contacto----*/
     .form-p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
     }
-
+    .fotoFrente {
+        width: 100%;
+        margin:auto;
+    }
+    .form {
+        font-size: 0.8rem;
+    }
+    .info__parrafo {
+        font-size:0.8rem;
+    }
+    .info__lista {
+        font-size: 0.8rem;
+    }
+    .info__titulo {
+        font-size: 1rem;
+    }
+    /*---exito----*/
+    .exito-p {
+        font-size: 1rem;
+    }
     /*----whatsapp----*/
     .boton {
         position: fixed;
@@ -94,15 +166,6 @@
         font-size: 23px;
     }
 
-    /*----footer----*/
-
-     footer {
-        background-color: rgba(132, 122, 122, 0.3);
-
-        .footer__eslogan {
-            font-size: 1rem;
-        }
-    }
 }
 
 /*-----cobertura (aca se aplicó grid)-----*/
@@ -124,5 +187,8 @@
 
     .cobertura-2 {
         grid-area: "columna-2";
+    }
+    .cobertura-p {
+        font-size: 1.2rem;
     }
 }

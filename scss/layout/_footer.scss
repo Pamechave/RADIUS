@@ -1,14 +1,15 @@
 footer {
-    background-color: rgba(132, 122, 122, 0.3);
+    background-color: rgba(229, 231, 233, 0.8);
 
     .footer__eslogan {
         margin-top: 20%;
         font-family: $fuente-secundaria;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         font-weight: 600;
         color: $color-primario;
         padding: 25px;
         letter-spacing: 7px;
+        text-align: center;
        
     }
 
@@ -22,8 +23,10 @@ footer {
         letter-spacing: 4px;
 
     }
+    
     .logoempresa {
-        width: 10%;
-        height: 10%;
+        position: relative;
+        width: 15%;
+        height: 50%;
     }
 }

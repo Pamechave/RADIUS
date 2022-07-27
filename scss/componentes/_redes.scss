@@ -1,11 +1,11 @@
 
 $redes:(
-messenger:blue,
+instagram:rgb(234, 71, 166),
 facebook:rgb(85, 85, 192),
 );
 
-.bi-messenger {
-    color: map-get($redes,"messenger");
+.bi-instagram {
+    color: map-get($redes,"instagram");
 }
 
 .bi-facebook {

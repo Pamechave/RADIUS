@@ -30,8 +30,10 @@
     color: $color-primario;
     font-family: $fuente-primaria;
     margin-top: 5%;
-    background-color: beige;
-    box-shadow: 5px 5px 3px grey;
+    font-size: 1.1rem;
+    background-color: rgba(169, 204, 227, 0.5);
+    padding: 10px;
+
 }
 .indicaciones:hover {
     transform: scale(1.1);
