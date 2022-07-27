@@ -37,22 +37,6 @@ body {
   color: rgb(85, 85, 192);
 }
 
-.preparaciones {
-  font-family: "Source Sans Pro", sans-serif;
-}
-.preparaciones .preparaciones__p {
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-top: 20px;
-}
-.preparaciones .preparaciones__li {
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-.preparaciones .preparaciones__li::before {
-  content: url(/iconos/arrow-right-short.svg);
-}
-
 .portada {
   display: flex;
   flex-direction: column;
@@ -232,6 +216,22 @@ body {
   font-size: 1rem;
 }
 
+.preparaciones {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.preparaciones .preparaciones__p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.preparaciones .preparaciones__li {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.preparaciones .preparaciones__li::before {
+  content: url(/iconos/arrow-right-short.svg);
+}
+
 .exito-p {
   font-family: "Nuosu SIL", serif;
   font-size: 1.3rem;
@@ -255,10 +255,6 @@ h1 {
   padding: 5px;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(240, 230, 140));
 }
-.header .navbar {
-  font-family: "Source Sans Pro", sans-serif;
-  letter-spacing: 0.3px;
-}
 .header a:hover {
   transform: scale(1.1);
   color: darkgoldenrod;
@@ -269,6 +265,8 @@ h1 {
 .header .nav-item {
   font-size: 1.3rem;
   font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0.3px;
 }
 .header .nav-link {
   color: black;
@@ -390,11 +388,11 @@ h1 {
     background-color: rgba(132, 122, 122, 0.3);
   }
   footer .footer__eslogan {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
     letter-spacing: 2px;
   }
   footer .footer__desarrollo {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
   }
   footer .logoempresa {
     width: 15%;
