@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 150vh; 
+    height: 120vh; 
 
     .portada__h1 {
         color: black;
@@ -20,6 +20,7 @@
     .portada__p {
         color: black;
         background-color: beige;
+        box-shadow: 5px 5px 3px grey;
         font-family: 'Nuosu SIL', serif;
         font-weight: 400;
         padding: 10px;
@@ -28,12 +29,11 @@
 }
 
 .institucional {
-    border: solid 1px darkslategrey;
     border-radius: 5px;
     box-shadow: 7px 7px 5px grey;
     margin-top: 5%;
     margin-bottom: 10%;
-    background-color: rgba(230, 230, 250, 0.7);
+    background-color: rgba(240,230,140,0.5);
     padding: 20px;
 
     &__titulo {
@@ -53,10 +53,9 @@
 
 .info__listado {
     @extend %parrafo;
-    border: solid 1px grey;
     border-radius: 5px;
     box-shadow: 7px 7px 5px grey;
-    background-color: whitesmoke;
+    background-color: rgba(240,230,140,0.5);
     font-size: 1rem;
     padding: 25px;
 }

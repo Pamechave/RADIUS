@@ -1,19 +1,39 @@
 
 .estudios {
     margin-top: 5%;
+    
 
     .estudios__h2 {
         font-family: $fuente-primaria;  
         font-size: 1.2rem;
         font-weight: 600;
-        text-align: center;
+        background-color: beige;
+        box-shadow: 5px 5px 3px grey;
+        padding: 10px;
     }
     .estudios__ul {
         list-style: none;
+        padding: 20px;
     }
-        li {
+        .li {
             font-family: $fuente-primaria;
             font-size: 1.1rem;
         }
+        li:before {
+          content: url(/iconos/arrow-right-short.svg);
+        }
+       
 }
-
+.indicaciones {
+    text-decoration: none;
+    text-align: center;
+    color: $color-primario;
+    font-family: $fuente-primaria;
+    margin-top: 5%;
+    background-color: beige;
+    box-shadow: 5px 5px 3px grey;
+}
+.indicaciones:hover {
+    transform: scale(1.1);
+    color:darkgoldenrod;
+}

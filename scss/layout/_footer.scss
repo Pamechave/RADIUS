@@ -8,7 +8,8 @@ footer {
         font-weight: 600;
         color: $color-primario;
         padding: 25px;
-        letter-spacing: 10px;
+        letter-spacing: 7px;
+       
     }
 
     .footer__desarrollo {
@@ -20,5 +21,9 @@ footer {
         padding: 10px;
         letter-spacing: 4px;
 
+    }
+    .logoempresa {
+        width: 10%;
+        height: 10%;
     }
 }

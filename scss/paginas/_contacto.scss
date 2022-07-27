@@ -8,12 +8,12 @@
 
 .info__parrafo {
     @extend %parrafo;
-    font-style: italic; 
+    font-style:normal;
+    font-weight: 600 
 }
 
 .info__lista {
     @extend %parrafo;
-    border: solid 1px grey;
     border-radius: 5px;
     box-shadow: 7px 7px 5px darkgrey;
     background-color: rgba(240, 230, 140, 0.5);

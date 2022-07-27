@@ -6,14 +6,28 @@
 
 .cobertura {
     list-style: none;
-
+    
     li {
     font-size: 1.1rem;
     font-family: $fuente-primaria;
     margin-top: 5%;
     color: $color-primario; 
+    
     @include centrar;
 
     }
+    li:before {
+        content: url(/iconos/chevron-double-right.svg);
+    }
+    li:hover {
+        transform: scale(1.1);
+        color:darkgoldenrod;
+    }
     
+}
+.cobertura-p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 5%;
 }
