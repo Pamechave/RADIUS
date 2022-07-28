@@ -51,6 +51,13 @@
 
 }
 
+%parrafo {
+    list-style: none;
+    font-family: $fuente-primaria;
+    font-size: 1rem;
+    line-height: 45px;
+    color: $color-secundario;
+}
 .info__listado {
     @extend %parrafo;
     border-radius: 5px;

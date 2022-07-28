@@ -1,17 +1,16 @@
 .preparaciones {
     font-family: $fuente-primaria;
-   
+
     .preparaciones__p {
         font-weight: 600;
         font-size: 1.2rem;
         margin-top: 20px;
     }
-
-    .preparaciones__li {
-        text-decoration: none;
+    .preparaciones__li {   
         font-size: 1.1rem;
+        list-style: none;
     }
-    .preparaciones__li::before {
-        content: url(/iconos/arrow-right-short.svg);
+    .preparaciones__li:before {
+        content: url(/iconos/arrow.svg);
     }
 }

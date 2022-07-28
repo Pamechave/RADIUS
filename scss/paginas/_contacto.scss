@@ -8,8 +8,8 @@
 
 .info__parrafo {
     @extend %parrafo;
-    font-style:normal;
-    font-weight: 600 
+    font-style: normal;
+    font-weight: 600
 }
 
 .info__lista {
@@ -18,9 +18,7 @@
     box-shadow: 7px 7px 5px darkgrey;
     background-color: rgba(240, 230, 140, 0.5);
     padding: 20px;
-    
+
 }
 
-.form {
-    font-size: 1rem;
-}
+

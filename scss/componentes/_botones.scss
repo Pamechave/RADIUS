@@ -23,11 +23,11 @@
 
 
 .btn {
-    background-color: $color-secundario;
+    background-color: $color-primario;
     color: $color-terciario;
 
     &:hover {
-        background-color: cornflowerblue;
-        color: $color-secundario;
+        background-color: $color-terciario;
+        color: $color-primario;
     }
 }
