@@ -1,33 +1,39 @@
-@mixin centrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cobertura {
-    list-style: none;
-    
-    li {
-    font-size: 0.8rem;
-    font-family: $fuente-primaria;
-    margin-top: 5%;
-    color: $color-primario; 
-    
-    @include centrar;
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+    grid-template-areas:
+        "columna-1 columna-2";
 
+    .cobertura__1 {
+        grid-area: "columna-1";
+        margin-top: 5%;
     }
+
+    .cobertura__2 {
+        grid-area: "columna-2";
+        margin-top: 5%;
+    }
+
+    li {
+        list-style: none;
+    }
+
     li:before {
         content: url(/iconos/chevron.svg);
     }
+
     li:hover {
         transform: scale(1.1);
-        color:darkgoldenrod;
+        color: darkgoldenrod;
     }
-    
 }
-.cobertura-p {
-    text-align: center;
-    font-size: 0.7rem;
+
+.p-cobertura {
+    font-size: 1.2rem;
     font-weight: 600;
+    text-align: center;
     margin-top: 5%;
 }
