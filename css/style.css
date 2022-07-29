@@ -146,7 +146,7 @@ body {
   font-size: 1.1rem;
 }
 .estudios li:before {
-  content: url(/iconos/arrow.svg);
+  content: url(/iconos/arrowright.svg);
 }
 
 .indicaciones {
@@ -185,7 +185,7 @@ body {
   list-style: none;
 }
 .cobertura li:before {
-  content: url(/iconos/chevron.svg);
+  content: url(/iconos/chevronright.svg);
 }
 .cobertura li:hover {
   transform: scale(1.1);
