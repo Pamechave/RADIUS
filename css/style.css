@@ -185,7 +185,7 @@ body {
   list-style: none;
 }
 .cobertura li:before {
-  content: url(/iconos/calendar.svg);
+  content: url(/iconos/chevron-double-right.svg);
 }
 .cobertura li:hover {
   transform: scale(1.1);
