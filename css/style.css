@@ -306,8 +306,8 @@ footer .footer__desarrollo {
 }
 footer .logoempresa {
   position: relative;
-  width: 19%;
-  height: 55%;
+  width: 15%;
+  height: auto;
 }
 
 .form .textarea, .form .form-label, .info__listado, .info__parrafo, .info__lista {
@@ -414,10 +414,6 @@ h1 {
   }
   footer .footer__desarrollo {
     font-size: 0.5rem;
-  }
-  footer .logoempresa {
-    width: 15%;
-    height: 40%;
   }
   footer .bi-facebook {
     width: 15%;
