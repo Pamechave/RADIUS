@@ -232,7 +232,7 @@ body {
   list-style: none;
 }
 .preparaciones .preparaciones__li:before {
-  content: url(/iconos/arrow.svg);
+  content: url(/iconos/arrow-right.svg);
 }
 
 .exito-p {
